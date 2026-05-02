@@ -1,8 +1,8 @@
-# Anonymous ACP-TSM reproduction code
+# ACP-TSM reproduction code
 
-This repository is a clean, anonymous implementation of ACP-TSM for time series conformal prediction with missing covariates.
+This repository is an implementation of ACP-TSM for time series conformal prediction with missing covariates.
 
-It follows the article's main ingredients:
+Main ingredients:
 - iterative imputation on the training split only
 - quantile regression on imputed features concatenated with masks
 - subset-matched conformal calibration for missingness patterns
